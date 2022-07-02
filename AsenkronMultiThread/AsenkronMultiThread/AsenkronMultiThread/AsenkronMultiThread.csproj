@@ -13,9 +13,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Page Include="dosya.txt">
+    <Content Include="dosya.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Page>
+    </Content>
   </ItemGroup>
 
 </Project>

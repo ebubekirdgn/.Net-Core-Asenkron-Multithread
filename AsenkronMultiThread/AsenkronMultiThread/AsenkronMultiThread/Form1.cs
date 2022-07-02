@@ -29,7 +29,23 @@ namespace AsenkronMultiThread
                 Thread.Sleep(5000);
                 data = streamReader.ReadToEnd();
             }
-            return "";
+            return data;
         }
+
+        //void ->> Task
+        // string ->> Task<string>
+
+        private async Task<string> ReadFileAsync()
+        {
+            string data = string.Empty;
+
+            using (StreamReader streamReader = new StreamReader("dosya.txt"))
+            {
+                Thread.Sleep(5000);
+                data = streamReader.ReadToEnd();
+            }
+            return data;
+        }
+
     }
 }
