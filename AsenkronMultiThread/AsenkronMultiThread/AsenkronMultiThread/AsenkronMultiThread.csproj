@@ -9,9 +9,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Update="dosya.txt">
+    <None Remove="dosya.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="dosya.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    </Page>
   </ItemGroup>
 
 </Project>
