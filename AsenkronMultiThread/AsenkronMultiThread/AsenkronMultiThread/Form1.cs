@@ -7,23 +7,29 @@ namespace AsenkronMultiThread
             InitializeComponent();
         }
 
+        private int counter = 0;
+
         private void btnRead_Click(object sender, EventArgs e)
         {
-
+            string data = ReadFile();
+            richTextBox1.Text = data;
         }
 
         private void btnCounter_Click(object sender, EventArgs e)
         {
-
+            textBoxCounter.Text = counter++.ToString();
         }
 
         private string ReadFile()
         {
-            using (StreamReader streamReader = new StreamReader())
-            {
+            string data = string.Empty;
 
+            using (StreamReader streamReader = new StreamReader("dosya.txt"))
+            {
+                Thread.Sleep(5000);
+                data = streamReader.ReadToEnd();
             }
-                return "";
+            return "";
         }
     }
 }
