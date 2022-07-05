@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CoderVm\\Documents\\GitHub\\.Net-Core-Asenkron-Multithread\\AsenkronMultiThread\\AsenkronMultiThread\\AsenkronMultiThread\\AsenkronMultiThread.csproj",
+      "projectUniqueName": "C:\\Users\\CoderVm\\Documents\\GitHub\\.Net-Core-Asenkron-Multithread\\AsenkronMultiThread-1\\AsenkronMultiThread\\AsenkronMultiThread\\AsenkronMultiThread.csproj",
       "projectName": "AsenkronMultiThread",
-      "projectPath": "C:\\Users\\CoderVm\\Documents\\GitHub\\.Net-Core-Asenkron-Multithread\\AsenkronMultiThread\\AsenkronMultiThread\\AsenkronMultiThread\\AsenkronMultiThread.csproj",
+      "projectPath": "C:\\Users\\CoderVm\\Documents\\GitHub\\.Net-Core-Asenkron-Multithread\\AsenkronMultiThread-1\\AsenkronMultiThread\\AsenkronMultiThread\\AsenkronMultiThread.csproj",
       "packagesPath": "C:\\Users\\CoderVm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CoderVm\\Documents\\GitHub\\.Net-Core-Asenkron-Multithread\\AsenkronMultiThread\\AsenkronMultiThread\\AsenkronMultiThread\\obj\\",
+      "outputPath": "C:\\Users\\CoderVm\\Documents\\GitHub\\.Net-Core-Asenkron-Multithread\\AsenkronMultiThread-1\\AsenkronMultiThread\\AsenkronMultiThread\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\CoderVm\\AppData\\Roaming\\NuGet\\NuGet.Config",
