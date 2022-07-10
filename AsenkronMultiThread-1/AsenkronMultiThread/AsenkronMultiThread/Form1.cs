@@ -14,7 +14,7 @@ namespace AsenkronMultiThread
             string data = String.Empty;
             Task<string> read = ReadFileAsync2();
             richTextBox2.Text = await new HttpClient().GetStringAsync("https://www.google.com");
-            
+
             data = await read;
 
             richTextBox1.Text = data;
@@ -59,12 +59,10 @@ namespace AsenkronMultiThread
 
         private Task<string> ReadFileAsync2()
         {
-
             using (StreamReader streamReader = new StreamReader("dosya.txt"))
             {
                 // Ekstra bir iþlem yoksa direk geri döneriz async ve awaite gerek yok.
                 return streamReader.ReadToEndAsync();
-                
             }
         }
     }
